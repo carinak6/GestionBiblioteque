@@ -1,0 +1,51 @@
+@charset "UTF-8";
+body{
+	/*background-color: #f4dbc6;*/
+	background-image: url("../img/accueil.jpg");
+	/*padding-top:50px;*/
+	
+	font-family: "Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #212529 !important;
+}
+
+.head{
+	
+	margin-top: 50px;
+	margin-bottom : 40px;
+}
+
+.container{
+	padding-right: 0px;
+    padding-left: 0px;
+    max-width: 1200px;
+}
+
+/****  Menu ***/
+
+ul.nav>li.nav-item>a{
+	color: #D4EDDA !important;
+}
+
+
+.bandeau_accueil{
+	background-color: #f4dbc6;
+	padding: 15px 30px;
+	width:100%;
+	background-color: green;
+	display:flex;
+	/*align-content: center;  space-between;space-evenly; flex-start;*/ 
+	/*align-items: flex-end;
+  justify-content: center;*/
+  
+	
+}
+
+/* j'ai bien les couleurs utilisé pour:
+.alert-success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}*/
